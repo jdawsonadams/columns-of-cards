@@ -19,6 +19,12 @@ h1 {
   text-align: center;
 }
 
+img {
+  width: 100px;
+  display: flex;
+  flex-direction: center;
+}
+
 h2 {
   font-size: 1rem;
   margin: 0;
@@ -27,6 +33,10 @@ h2 {
 a {
   text-decoration: none;
   color: #000;
+}
+
+a:hover {
+  background-color: #000;
 }
 
 p {
