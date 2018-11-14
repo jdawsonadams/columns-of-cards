@@ -1,7 +1,56 @@
 html {
   font-family: 'Open Sans', sans-serif;
+  background-color: #f2f2f2;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  line-height: 1.5;
+}
+
+div {
+  padding: .75rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+p {
+  margin: 0;
+}
+
+.btn {
+  font-size: .875rem;
+  color: #fff;
+  background-color: #333;
+  border-radius: 8px;
+  border-width: 3px;
+  text-decoration: none;
+  padding: .5em;
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.books {
+  background-color: #e2e2e2;
+  border-left: solid 1px #000;
+  display: flex;
+}
+
+.name {
+  font-size: .875rem;
 }
