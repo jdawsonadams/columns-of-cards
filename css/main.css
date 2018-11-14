@@ -14,6 +14,7 @@ body {
 
 div {
   padding: .75rem;
+  margin: 0;
 }
 
 h1 {
@@ -67,7 +68,26 @@ p {
 }
 
 .books {
+  display: flex;
+  margin: 0;
+}
+
+.quest {
   background-color: #e2e2e2;
   border-left: solid 1px #000;
-  display: flex;
+}
+
+.dinosaur {
+  background-color: #ccc;
+  border-left: solid 1px #000;
+}
+
+.dragon {
+  background-color: #aaa;
+  border-left: solid 1px #000;
+}
+
+.ships {
+  background-color: #999;
+  border-left: solid 1px #000;
 }
